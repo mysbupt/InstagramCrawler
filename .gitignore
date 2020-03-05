@@ -1,0 +1,6 @@
+*.jpg
+data
+data*
+data/*
+.swp
+.swo
