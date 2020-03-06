@@ -1,5 +1,5 @@
 ## Introduction
-This repo includes two useful tools to crawl instagram posts by usernames or by hashtags. It uses selenium to open a browser and animate the human's action (e.g., click, scroll, and etc.), thus can crawl the Instagram without requiring the official API.
+This repo includes two useful tools to crawl instagram posts by usernames or by hashtags. It uses selenium to open a browser and simulate the human's action (e.g., click, scroll, and etc.), thus can crawl the Instagram without requiring the official API.
 
 ### Requirements
 python2.7
