@@ -3,12 +3,20 @@ This repo includes two useful tools to crawl instagram posts by usernames or by 
 
 ## Requirements
 python2.7
-packages: argparse, selenium, json, urllib, hashlib, requests, reverse\_geocoder
+argparse   
+selenium  
+json  
+urllib  
+hashlib  
+requests  
+reverse\_geocoder
 
 ## Usage
-1. Crawl by usernames:
-crawl_by_user.py [-h] [-u USER_LIST] [-d DATA_PATH] [-i IMAGE_PATH]
-You can save the usernames in the ./users.txt file, each line of which is a username of Instagram
-2. Crawl by hashtags:
-crawl_by_hashtag.py [-h] [-t TAG] [-d DATA_PATH] [-i IMAGE_PATH]
-You can save the hashtags in the ./hashtags.txt file, each line of which is a hashtag in Instagram
+1. Crawl by usernames:  
+python crawl\_by\_user.py [-h] [-u USER_LIST] [-d DATA\_PATH] [-i IMAGE_PATH]  
+or just try it with default arguments: python crawl\_by\_user.py  
+You can save the usernames in the ./users.txt file, each line of which is a username of Instagram. The default download directory is ./data/userss (save metadata such as number of likes, comments, texts, etc.) ./data/userss\_images (save all the images).  
+2. Crawl by hashtags:  
+python crawl\_by\_hashtag.py [-h] [-t TAG] [-d DATA\_PATH] [-i IMAGE_PATH]  
+or just try it with default arguments: python crawl\_by\_hashtag.py  
+You can save the hashtags in the ./hashtags.txt file, each line of which is a hashtag in Instagram. The default download directory is ./data/hashtags (save metadata such as number of likes, comments, texts, etc.) ./data/hastags\_images (save all the images)  
