@@ -7,6 +7,7 @@ argparse
 selenium  
 simplejson      
 requests  
+reverse\_geocode   
 reverse\_geocoder   
 bs4   
 python-dateutil   
