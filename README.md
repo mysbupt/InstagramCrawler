@@ -12,7 +12,8 @@ bs4
 python-dateutil   
 
 Install chrome(or chromium) browser.   
-(Only for linux) Install chromedriver: first, download the [driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) with the same version of your browser; unzip and move it to /usr/bin, chmod +x /usr/bin/chromedriver.
+(Only for linux) Install chromedriver: first, download the [driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) with the same version of your browser; unzip and move it to /usr/bin, chmod +x /usr/bin/chromedriver.   
+Be very careful about the versions of both chromium-browser and chrome-driver. I tested that using apt install chromium-browser(version 84.0.4147.105) and the [chrome-driver 84.0.4147.30](https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/) works.(By 6 Seq, 2020)
 
 ### Usage
 1. Crawl by usernames:  
