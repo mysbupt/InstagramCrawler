@@ -10,7 +10,9 @@ requests
 reverse\_geocode   
 reverse\_geocoder   
 bs4   
-python-dateutil   
+python-dateutil
+lxml  
+
 
 Install chrome(or chromium) browser.   
 (Only for linux) Install chromedriver: first, download the [driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) with the same version of your browser; unzip and move it to /usr/bin, chmod +x /usr/bin/chromedriver.   
